@@ -156,6 +156,7 @@ public class TestChecks {
             boolean bDone = false;
 
             while( !bDone ) {
+                // replace so file paths won't cause spurious cross-platform diffs
                 sLineA = bufferedreaderA.readLine();
                 sLineB = bufferedreaderB.readLine();
 
@@ -167,8 +168,15 @@ public class TestChecks {
                 if( ((sLineA != null) && (sLineB == null)) || ((sLineA == null) && (sLineB != null)) )
                     return( true );
 
-                if( !sLineA.equals( sLineB ) )
-                    return( true );
+                if( !sLineA.equals( sLineB ) ) {
+                    // replace so file paths won't cause spurious cross-platform diffs
+                    // NOTE: only need to try this if strings are different
+                    sLineA = sLineA.replace( '\\', '/' );
+                    sLineB = sLineB.replace( '\\', '/' );
+
+                    if( !sLineA.equals( sLineB ) )
+                        return( true );
+                }
             }
             
             bufferedreaderA.close();
