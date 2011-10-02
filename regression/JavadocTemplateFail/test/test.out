@@ -1,7 +1,0 @@
-Starting audit...
-regression\JavadocTemplateFail\ChecksTest.java:2: warning: Missing or incorrect equals sign bar above Javadoc comment
-regression\JavadocTemplateFail\ChecksTest.java:9: warning: Missing or incorrect copyright line in Javadoc comment
-regression\JavadocTemplateFail\ChecksTest.java:11: warning: Missing or incorrect equals sign bar above Javadoc comment
-regression\JavadocTemplateFail\ChecksTest.java:18: warning: Missing or incorrect equals sign bar above Javadoc comment
-regression\JavadocTemplateFail\ChecksTest.java:22: warning: Empty or trivial Javadoc parameter comment
-Audit done.
