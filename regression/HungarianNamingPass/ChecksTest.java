@@ -1,6 +1,8 @@
 package name.wadewalker.checks;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 //==============================================================================
@@ -161,6 +163,9 @@ public class Test {
 
     /** Comment. */
     private Map<String, Object []> [] amap26;
+
+    /** List of arrays is still just a list. */
+    private List<double []> list27 = new ArrayList<double []>();
 
     /**
      * A.

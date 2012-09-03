@@ -162,6 +162,9 @@ public class Test {
     /** Comment. */
     private Map<String, Object []> [] m26;
 
+    /** List of arrays is still just a list. */
+    private List<double []> m27 = new ArrayList<double []>();
+
     /**
      * A.
      */

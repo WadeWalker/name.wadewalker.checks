@@ -183,7 +183,7 @@ public class HungarianNaming extends Check {
 
         // check for native types
         for( int i = 0; i < saiNativeTokenTypes.length; i++ ) {
-            if( detailastType.branchContains( saiNativeTokenTypes[i] ) ) {
+            if( (detailastType.getFirstChild() != null) && detailastType.getFirstChild().branchContains( saiNativeTokenTypes[i] ) ) {
                 if( !sMemberOrParamName.startsWith( sasNativePrefixes[i], iNameStartIndex ) )
                     log( detailast.getLineNo(), String.format( ssWarningMsg, sasNativeTypeNames[i], sTerminalName, sMemberOrParamName, sasNativePrefixes[i] ) );
 

@@ -98,5 +98,6 @@ regression/HungarianNamingFail/ChecksTest.java:157: warning: Prepend array membe
 regression/HungarianNamingFail/ChecksTest.java:160: warning: Prepend Map member name 'm25' with 'map'
 regression/HungarianNamingFail/ChecksTest.java:163: warning: Prepend Map member name 'm26' with 'map'
 regression/HungarianNamingFail/ChecksTest.java:163: warning: Prepend array member name 'm26' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:200: warning: Prepend varargs parameter name 'oParam' with 'a'
+regression/HungarianNamingFail/ChecksTest.java:166: warning: Prepend List member name 'm27' with 'list'
+regression/HungarianNamingFail/ChecksTest.java:203: warning: Prepend varargs parameter name 'oParam' with 'a'
 Audit done.
