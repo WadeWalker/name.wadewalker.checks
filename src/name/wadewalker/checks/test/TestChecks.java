@@ -147,6 +147,8 @@ public class TestChecks {
      * @return true if the files are different, false otherwise.
      */
     private static boolean diff( File fileA, File fileB ) {
+        boolean bReturn = false;
+
         try {
             BufferedReader bufferedreaderA = new BufferedReader( new FileReader( fileA ) );
             BufferedReader bufferedreaderB = new BufferedReader( new FileReader( fileB ) );
@@ -165,8 +167,10 @@ public class TestChecks {
                     break;
                 }
 
-                if( ((sLineA != null) && (sLineB == null)) || ((sLineA == null) && (sLineB != null)) )
-                    return( true );
+                if( ((sLineA != null) && (sLineB == null)) || ((sLineA == null) && (sLineB != null)) ) {
+                    bReturn = true;
+                    break;
+                }
 
                 if( !sLineA.equals( sLineB ) ) {
                     // replace so file paths won't cause spurious cross-platform diffs
@@ -174,8 +178,10 @@ public class TestChecks {
                     sLineA = sLineA.replace( '\\', '/' );
                     sLineB = sLineB.replace( '\\', '/' );
 
-                    if( !sLineA.equals( sLineB ) )
-                        return( true );
+                    if( !sLineA.equals( sLineB ) ) {
+                        bReturn = true;
+                        break;
+                    }
                 }
             }
             
@@ -189,7 +195,7 @@ public class TestChecks {
             assertTrue( false );
         }
 
-        return( false );
+        return( bReturn );
     }
 
     //==============================================================================
