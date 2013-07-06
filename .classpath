@@ -4,5 +4,5 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="/External/Checkstyle/checkstyle-5.6-all.jar"/>
-	<classpathentry kind="output" path="src"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>
