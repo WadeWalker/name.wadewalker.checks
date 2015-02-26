@@ -19,7 +19,7 @@ import com.puppycrawl.tools.checkstyle.api.CheckstyleException;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static junit.framework.Assert.assertTrue;
+import static org.junit.Assert.assertTrue;
 
 //==============================================================================
 /**
