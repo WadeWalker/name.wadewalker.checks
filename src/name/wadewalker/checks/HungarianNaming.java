@@ -1,6 +1,6 @@
 package name.wadewalker.checks;
 
-import com.puppycrawl.tools.checkstyle.api.Check;
+import com.puppycrawl.tools.checkstyle.api.AbstractCheck;
 import com.puppycrawl.tools.checkstyle.api.DetailAST;
 import com.puppycrawl.tools.checkstyle.api.TokenTypes;
 
@@ -32,10 +32,10 @@ import com.puppycrawl.tools.checkstyle.api.TokenTypes;
  * sb: StringBuffer or StringBuilder
  * {class name}: {class name}
  *
- * Copyright (c) 2011 Wade Walker. All rights reserved.
+ * Copyright (c) 2011-2016 Wade Walker. All rights reserved.
  * @author Wade Walker
  */
-public class HungarianNaming extends Check {
+public class HungarianNaming extends AbstractCheck {
 
     /** Format string for warning message.
      * 1: type
@@ -78,7 +78,7 @@ public class HungarianNaming extends Check {
     /**
      * Accessor.
      * @return the token types of the grammar terminals to check.
-     * @see com.puppycrawl.tools.checkstyle.api.Check#getDefaultTokens()
+     * @see com.puppycrawl.tools.checkstyle.api.AbstractCheck#getDefaultTokens()
      */
     public int [] getDefaultTokens() {
         return new int [] {TokenTypes.PARAMETER_DEF, TokenTypes.VARIABLE_DEF};
@@ -129,7 +129,7 @@ public class HungarianNaming extends Check {
      * Checks for naming violations. Called only on AST nodes of the grammar terminals we're checking.
      *
      * @param detailast AST node being visited.
-     * @see com.puppycrawl.tools.checkstyle.api.Check#visitToken(com.puppycrawl.tools.checkstyle.api.DetailAST)
+     * @see com.puppycrawl.tools.checkstyle.api.AbstractCheck#visitToken(com.puppycrawl.tools.checkstyle.api.DetailAST)
      */
     public void visitToken( DetailAST detailast ) {
 

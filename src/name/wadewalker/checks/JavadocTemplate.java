@@ -2,7 +2,7 @@ package name.wadewalker.checks;
 
 import java.util.regex.Pattern;
 
-import com.puppycrawl.tools.checkstyle.api.Check;
+import com.puppycrawl.tools.checkstyle.api.AbstractCheck;
 import com.puppycrawl.tools.checkstyle.api.DetailAST;
 import com.puppycrawl.tools.checkstyle.api.FileContents;
 import com.puppycrawl.tools.checkstyle.api.TextBlock;
@@ -12,10 +12,10 @@ import com.puppycrawl.tools.checkstyle.api.TokenTypes;
 /**
  * Checks that Javadoc for classes and methods conforms to the standard template.
  *
- * Copyright (c) 2011 Wade Walker. All rights reserved.
+ * Copyright (c) 2011-2016 Wade Walker. All rights reserved.
  * @author Wade Walker
  */
-public class JavadocTemplate extends Check {
+public class JavadocTemplate extends AbstractCheck {
 
     /** Matches equals sign bar before class or interface comment (no spaces to left). */
     private static final Pattern spatternClassCommentBar = Pattern.compile( "//={78}" );
@@ -55,7 +55,7 @@ public class JavadocTemplate extends Check {
     /**
      * Accessor.
      * @return the token types of the grammar terminals to check.
-     * @see com.puppycrawl.tools.checkstyle.api.Check#getDefaultTokens()
+     * @see com.puppycrawl.tools.checkstyle.api.AbstractCheck#getDefaultTokens()
      */
     public int [] getDefaultTokens() {
         return( new int [] {TokenTypes.CLASS_DEF, TokenTypes.CTOR_DEF, TokenTypes.INTERFACE_DEF, TokenTypes.METHOD_DEF} );
@@ -66,7 +66,7 @@ public class JavadocTemplate extends Check {
      * Checks for one Javadoc comment.
      *
      * @param detailast AST node being visited.
-     * @see com.puppycrawl.tools.checkstyle.api.Check#visitToken(com.puppycrawl.tools.checkstyle.api.DetailAST)
+     * @see com.puppycrawl.tools.checkstyle.api.AbstractCheck#visitToken(com.puppycrawl.tools.checkstyle.api.DetailAST)
      */
     public void visitToken( DetailAST detailast ) {
 

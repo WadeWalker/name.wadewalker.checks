@@ -225,5 +225,8 @@ public class TestChecks {
         catch( FileNotFoundException filenotfoundexception ) {
             assertTrue( "Test threw an exception: " + filenotfoundexception.getMessage(), false );
         }
+        catch( CheckstyleException checkstyleexception ) {
+            assertTrue( "Test threw an exception: " + checkstyleexception.getMessage(), false );
+        }
     }
 }

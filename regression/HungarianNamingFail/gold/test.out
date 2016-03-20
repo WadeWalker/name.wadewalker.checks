@@ -1,103 +1,103 @@
 Starting audit...
-regression/HungarianNamingFail/ChecksTest.java:16: warning: Prepend boolean member name 'ms1' with 'b'
-regression/HungarianNamingFail/ChecksTest.java:16: warning: Prepend static member name 'ms1' with 's'
-regression/HungarianNamingFail/ChecksTest.java:19: warning: Prepend array member name 'ms2' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:19: warning: Prepend boolean member name 'ms2' with 'b'
-regression/HungarianNamingFail/ChecksTest.java:19: warning: Prepend static member name 'ms2' with 's'
-regression/HungarianNamingFail/ChecksTest.java:22: warning: Prepend byte member name 'ms3' with 'b'
-regression/HungarianNamingFail/ChecksTest.java:22: warning: Prepend static member name 'ms3' with 's'
-regression/HungarianNamingFail/ChecksTest.java:25: warning: Prepend array member name 'ms4' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:25: warning: Prepend byte member name 'ms4' with 'b'
-regression/HungarianNamingFail/ChecksTest.java:25: warning: Prepend static member name 'ms4' with 's'
-regression/HungarianNamingFail/ChecksTest.java:28: warning: Prepend char member name 'ms5' with 'c'
-regression/HungarianNamingFail/ChecksTest.java:28: warning: Prepend static member name 'ms5' with 's'
-regression/HungarianNamingFail/ChecksTest.java:31: warning: Prepend array member name 'ms6' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:31: warning: Prepend char member name 'ms6' with 'c'
-regression/HungarianNamingFail/ChecksTest.java:31: warning: Prepend static member name 'ms6' with 's'
-regression/HungarianNamingFail/ChecksTest.java:34: warning: Prepend double member name 'ms7' with 'd'
-regression/HungarianNamingFail/ChecksTest.java:34: warning: Prepend static member name 'ms7' with 's'
-regression/HungarianNamingFail/ChecksTest.java:37: warning: Prepend array member name 'ms8' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:37: warning: Prepend double member name 'ms8' with 'd'
-regression/HungarianNamingFail/ChecksTest.java:37: warning: Prepend static member name 'ms8' with 's'
-regression/HungarianNamingFail/ChecksTest.java:40: warning: Prepend float member name 'ms9' with 'f'
-regression/HungarianNamingFail/ChecksTest.java:40: warning: Prepend static member name 'ms9' with 's'
-regression/HungarianNamingFail/ChecksTest.java:43: warning: Prepend array member name 'ms10' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:43: warning: Prepend float member name 'ms10' with 'f'
-regression/HungarianNamingFail/ChecksTest.java:43: warning: Prepend static member name 'ms10' with 's'
-regression/HungarianNamingFail/ChecksTest.java:46: warning: Prepend int member name 'ms11' with 'i'
-regression/HungarianNamingFail/ChecksTest.java:46: warning: Prepend static member name 'ms11' with 's'
-regression/HungarianNamingFail/ChecksTest.java:49: warning: Prepend array member name 'ms12' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:49: warning: Prepend int member name 'ms12' with 'i'
-regression/HungarianNamingFail/ChecksTest.java:49: warning: Prepend static member name 'ms12' with 's'
-regression/HungarianNamingFail/ChecksTest.java:52: warning: Prepend long member name 'ms13' with 'l'
-regression/HungarianNamingFail/ChecksTest.java:52: warning: Prepend static member name 'ms13' with 's'
-regression/HungarianNamingFail/ChecksTest.java:55: warning: Prepend array member name 'ms14' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:55: warning: Prepend long member name 'ms14' with 'l'
-regression/HungarianNamingFail/ChecksTest.java:55: warning: Prepend static member name 'ms14' with 's'
-regression/HungarianNamingFail/ChecksTest.java:58: warning: Prepend Object member name 'ms15' with 'o'
-regression/HungarianNamingFail/ChecksTest.java:58: warning: Prepend static member name 'ms15' with 's'
-regression/HungarianNamingFail/ChecksTest.java:61: warning: Prepend Object member name 'ms16' with 'o'
-regression/HungarianNamingFail/ChecksTest.java:61: warning: Prepend array member name 'ms16' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:61: warning: Prepend static member name 'ms16' with 's'
-regression/HungarianNamingFail/ChecksTest.java:64: warning: Prepend short member name 'ms17' with 's'
-regression/HungarianNamingFail/ChecksTest.java:64: warning: Prepend static member name 'ms17' with 's'
-regression/HungarianNamingFail/ChecksTest.java:67: warning: Prepend array member name 'ms18' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:67: warning: Prepend short member name 'ms18' with 's'
-regression/HungarianNamingFail/ChecksTest.java:67: warning: Prepend static member name 'ms18' with 's'
-regression/HungarianNamingFail/ChecksTest.java:70: warning: Prepend String member name 'ms19' with 's'
-regression/HungarianNamingFail/ChecksTest.java:70: warning: Prepend static member name 'ms19' with 's'
-regression/HungarianNamingFail/ChecksTest.java:73: warning: Prepend String member name 'ms20' with 's'
-regression/HungarianNamingFail/ChecksTest.java:73: warning: Prepend array member name 'ms20' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:73: warning: Prepend static member name 'ms20' with 's'
-regression/HungarianNamingFail/ChecksTest.java:76: warning: Prepend StringBuffer or StringBuilder member name 'ms21' with 'sb'
-regression/HungarianNamingFail/ChecksTest.java:76: warning: Prepend static member name 'ms21' with 's'
-regression/HungarianNamingFail/ChecksTest.java:79: warning: Prepend StringBuffer or StringBuilder member name 'ms22' with 'sb'
-regression/HungarianNamingFail/ChecksTest.java:79: warning: Prepend array member name 'ms22' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:79: warning: Prepend static member name 'ms22' with 's'
-regression/HungarianNamingFail/ChecksTest.java:82: warning: Prepend B member name 'ms23' with 'b'
-regression/HungarianNamingFail/ChecksTest.java:82: warning: Prepend static member name 'ms23' with 's'
-regression/HungarianNamingFail/ChecksTest.java:85: warning: Prepend B member name 'ms24' with 'b'
-regression/HungarianNamingFail/ChecksTest.java:85: warning: Prepend array member name 'ms24' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:85: warning: Prepend static member name 'ms24' with 's'
-regression/HungarianNamingFail/ChecksTest.java:88: warning: Prepend boolean member name 'm1' with 'b'
-regression/HungarianNamingFail/ChecksTest.java:91: warning: Prepend array member name 'm2' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:91: warning: Prepend boolean member name 'm2' with 'b'
-regression/HungarianNamingFail/ChecksTest.java:94: warning: Prepend byte member name 'm3' with 'b'
-regression/HungarianNamingFail/ChecksTest.java:97: warning: Prepend array member name 'm4' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:97: warning: Prepend byte member name 'm4' with 'b'
-regression/HungarianNamingFail/ChecksTest.java:100: warning: Prepend char member name 'm5' with 'c'
-regression/HungarianNamingFail/ChecksTest.java:103: warning: Prepend array member name 'm6' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:103: warning: Prepend char member name 'm6' with 'c'
-regression/HungarianNamingFail/ChecksTest.java:106: warning: Prepend double member name 'm7' with 'd'
-regression/HungarianNamingFail/ChecksTest.java:109: warning: Prepend array member name 'm8' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:109: warning: Prepend double member name 'm8' with 'd'
-regression/HungarianNamingFail/ChecksTest.java:112: warning: Prepend float member name 'm9' with 'f'
-regression/HungarianNamingFail/ChecksTest.java:115: warning: Prepend array member name 'm10' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:115: warning: Prepend float member name 'm10' with 'f'
-regression/HungarianNamingFail/ChecksTest.java:118: warning: Prepend int member name 'm11' with 'i'
-regression/HungarianNamingFail/ChecksTest.java:121: warning: Prepend array member name 'm12' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:121: warning: Prepend int member name 'm12' with 'i'
-regression/HungarianNamingFail/ChecksTest.java:124: warning: Prepend long member name 'm13' with 'l'
-regression/HungarianNamingFail/ChecksTest.java:127: warning: Prepend array member name 'm14' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:127: warning: Prepend long member name 'm14' with 'l'
-regression/HungarianNamingFail/ChecksTest.java:130: warning: Prepend Object member name 'm15' with 'o'
-regression/HungarianNamingFail/ChecksTest.java:133: warning: Prepend Object member name 'm16' with 'o'
-regression/HungarianNamingFail/ChecksTest.java:133: warning: Prepend array member name 'm16' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:136: warning: Prepend short member name 'm17' with 's'
-regression/HungarianNamingFail/ChecksTest.java:139: warning: Prepend array member name 'm18' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:139: warning: Prepend short member name 'm18' with 's'
-regression/HungarianNamingFail/ChecksTest.java:142: warning: Prepend String member name 'm19' with 's'
-regression/HungarianNamingFail/ChecksTest.java:145: warning: Prepend String member name 'm20' with 's'
-regression/HungarianNamingFail/ChecksTest.java:145: warning: Prepend array member name 'm20' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:148: warning: Prepend StringBuffer or StringBuilder member name 'm21' with 'sb'
-regression/HungarianNamingFail/ChecksTest.java:151: warning: Prepend StringBuffer or StringBuilder member name 'm22' with 'sb'
-regression/HungarianNamingFail/ChecksTest.java:151: warning: Prepend array member name 'm22' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:154: warning: Prepend B member name 'm23' with 'b'
-regression/HungarianNamingFail/ChecksTest.java:157: warning: Prepend B member name 'm24' with 'b'
-regression/HungarianNamingFail/ChecksTest.java:157: warning: Prepend array member name 'm24' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:160: warning: Prepend Map member name 'm25' with 'map'
-regression/HungarianNamingFail/ChecksTest.java:163: warning: Prepend Map member name 'm26' with 'map'
-regression/HungarianNamingFail/ChecksTest.java:163: warning: Prepend array member name 'm26' with 'a'
-regression/HungarianNamingFail/ChecksTest.java:166: warning: Prepend List member name 'm27' with 'list'
-regression/HungarianNamingFail/ChecksTest.java:203: warning: Prepend varargs parameter name 'oParam' with 'a'
+[WARN] regression\HungarianNamingFail\ChecksTest.java:16: Prepend boolean member name 'ms1' with 'b' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:16: Prepend static member name 'ms1' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:19: Prepend array member name 'ms2' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:19: Prepend boolean member name 'ms2' with 'b' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:19: Prepend static member name 'ms2' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:22: Prepend byte member name 'ms3' with 'b' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:22: Prepend static member name 'ms3' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:25: Prepend array member name 'ms4' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:25: Prepend byte member name 'ms4' with 'b' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:25: Prepend static member name 'ms4' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:28: Prepend char member name 'ms5' with 'c' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:28: Prepend static member name 'ms5' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:31: Prepend array member name 'ms6' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:31: Prepend char member name 'ms6' with 'c' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:31: Prepend static member name 'ms6' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:34: Prepend double member name 'ms7' with 'd' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:34: Prepend static member name 'ms7' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:37: Prepend array member name 'ms8' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:37: Prepend double member name 'ms8' with 'd' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:37: Prepend static member name 'ms8' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:40: Prepend float member name 'ms9' with 'f' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:40: Prepend static member name 'ms9' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:43: Prepend array member name 'ms10' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:43: Prepend float member name 'ms10' with 'f' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:43: Prepend static member name 'ms10' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:46: Prepend int member name 'ms11' with 'i' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:46: Prepend static member name 'ms11' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:49: Prepend array member name 'ms12' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:49: Prepend int member name 'ms12' with 'i' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:49: Prepend static member name 'ms12' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:52: Prepend long member name 'ms13' with 'l' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:52: Prepend static member name 'ms13' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:55: Prepend array member name 'ms14' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:55: Prepend long member name 'ms14' with 'l' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:55: Prepend static member name 'ms14' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:58: Prepend Object member name 'ms15' with 'o' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:58: Prepend static member name 'ms15' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:61: Prepend Object member name 'ms16' with 'o' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:61: Prepend array member name 'ms16' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:61: Prepend static member name 'ms16' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:64: Prepend short member name 'ms17' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:64: Prepend static member name 'ms17' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:67: Prepend array member name 'ms18' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:67: Prepend short member name 'ms18' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:67: Prepend static member name 'ms18' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:70: Prepend String member name 'ms19' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:70: Prepend static member name 'ms19' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:73: Prepend String member name 'ms20' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:73: Prepend array member name 'ms20' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:73: Prepend static member name 'ms20' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:76: Prepend StringBuffer or StringBuilder member name 'ms21' with 'sb' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:76: Prepend static member name 'ms21' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:79: Prepend StringBuffer or StringBuilder member name 'ms22' with 'sb' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:79: Prepend array member name 'ms22' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:79: Prepend static member name 'ms22' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:82: Prepend B member name 'ms23' with 'b' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:82: Prepend static member name 'ms23' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:85: Prepend B member name 'ms24' with 'b' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:85: Prepend array member name 'ms24' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:85: Prepend static member name 'ms24' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:88: Prepend boolean member name 'm1' with 'b' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:91: Prepend array member name 'm2' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:91: Prepend boolean member name 'm2' with 'b' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:94: Prepend byte member name 'm3' with 'b' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:97: Prepend array member name 'm4' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:97: Prepend byte member name 'm4' with 'b' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:100: Prepend char member name 'm5' with 'c' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:103: Prepend array member name 'm6' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:103: Prepend char member name 'm6' with 'c' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:106: Prepend double member name 'm7' with 'd' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:109: Prepend array member name 'm8' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:109: Prepend double member name 'm8' with 'd' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:112: Prepend float member name 'm9' with 'f' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:115: Prepend array member name 'm10' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:115: Prepend float member name 'm10' with 'f' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:118: Prepend int member name 'm11' with 'i' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:121: Prepend array member name 'm12' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:121: Prepend int member name 'm12' with 'i' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:124: Prepend long member name 'm13' with 'l' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:127: Prepend array member name 'm14' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:127: Prepend long member name 'm14' with 'l' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:130: Prepend Object member name 'm15' with 'o' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:133: Prepend Object member name 'm16' with 'o' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:133: Prepend array member name 'm16' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:136: Prepend short member name 'm17' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:139: Prepend array member name 'm18' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:139: Prepend short member name 'm18' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:142: Prepend String member name 'm19' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:145: Prepend String member name 'm20' with 's' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:145: Prepend array member name 'm20' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:148: Prepend StringBuffer or StringBuilder member name 'm21' with 'sb' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:151: Prepend StringBuffer or StringBuilder member name 'm22' with 'sb' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:151: Prepend array member name 'm22' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:154: Prepend B member name 'm23' with 'b' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:157: Prepend B member name 'm24' with 'b' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:157: Prepend array member name 'm24' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:160: Prepend Map member name 'm25' with 'map' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:163: Prepend Map member name 'm26' with 'map' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:163: Prepend array member name 'm26' with 'a' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:166: Prepend List member name 'm27' with 'list' [HungarianNaming]
+[WARN] regression\HungarianNamingFail\ChecksTest.java:203: Prepend varargs parameter name 'oParam' with 'a' [HungarianNaming]
 Audit done.

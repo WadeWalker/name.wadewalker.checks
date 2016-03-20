@@ -32,7 +32,7 @@ public class Test {
             /**
              * Inner class methods don't need bars.
              */
-            public innerClassMethod1() {
+            void innerClassMethod1() {
             }
         }
     }
